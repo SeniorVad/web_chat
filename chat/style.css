@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+text-decoration: none;
+}
+
+p {
+	margin: 10px 0;
+	text-shadow: 1px 1px 5px #53ff1a;
+}
+.PageSelector{
+	margin: 10px;
+}
+
+#prof{
+	color:#53ff1a;
+}
+body, button, input[type=text], input[type=password], h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+h1 {
+	color:#e0e0eb;
+	font-size: 24px;
+    text-indent: 10%;
+    text-shadow: 1px 1px 15px #ff00ff;
+}
+.profh1{
+	color:#e0e0eb;
+	font-size: 24px;
+    text-indent: 5%;
+    text-shadow: 1px 1px 15px #ff00ff;
+}
+button {
+	background-color: #0a0d1a; 
+	border: 1px solid #fff;
+	padding: 8px;
+	width:200px;
+	color:white;
+	text-shadow: 1px 1px 10px #fff;
+}
+button:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+input[type=text], input[type=password]{
+	color:#00cc66;
+	width: 400px;
+	padding: 5px;
+	border: 1px solid #0a0d1a;
+	outline: none;
+}
+.wrapper, .content, .menu, body, html {
+	height: 100%;
+}
+.wrapper {
+	display: flex;
+} 
+.content {
+	flex: 1;
+	background-image: url("img/bd.jpg");
+	background-repeat: no-repeat;
+	width:100%;
+	background-attachment: fixed;
+	color:white;
+}
+.block {
+	margin: 40px;
+	padding: 20px;
+	border: 1px solid purple;
+	opacity: 0.9;
+	border-radius:15px;
+
+}
+.menu {
+	width: 200px;
+	background-color:#0a0d1a;
+}
+
+.menu a {
+	display: block;
+	color:#fff;
+	text-shadow: 1px 1px 10px #fff;
+	text-align: center;
+	font-size: 25px;
+	padding: 5px;
+}
+.footer{
+  	position: fixed;
+  	left: 0;
+ 	 bottom: 0;
+ 	 width: 100%;
+  	background-color: #0a0d1a;
+  	color: white;
+  	text-shadow: 1px 1px 15px #ff00ff;
+  	text-align: center;
+  	opacity: 0.8;
+}
+.ChatBlock {
+	border: 1px solid #dddddd;
+	padding: 10px; 
+	color:  #f2f2f2;
+	text-shadow: 1px 1px 10px #1a1aff;
+	margin: 10px;
+	background-color: #0a0d1a;
+	font-size: 20px;
+}
